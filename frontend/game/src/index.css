@@ -1,3 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@font-face {
+  font-family: 'NDot';
+  src: url('./assets/fonts/NDot.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

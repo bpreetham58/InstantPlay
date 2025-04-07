@@ -1,10 +1,13 @@
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
-  ],
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ndot: ['NDot', 'sans-serif'],
+        ntype: ['NType82', 'sans-serif'],
+        nmono: ['NType82Mono', 'monospace'],
+      },
+    },
   },
   plugins: [],
 };

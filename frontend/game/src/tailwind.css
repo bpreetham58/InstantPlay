@@ -1,3 +1,33 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+    font-family: 'NDot';
+    src: url('/fonts/NDot.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'NType 82';
+    src: url('/fonts/NType82.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'NType 82 Mono';
+    src: url('/fonts/NType82Mono.ttf') format('truetype');
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @layer utilities {
+    .font-ndot {
+      font-family: 'NDot', monospace;
+    }
+  
+    .font-n82 {
+      font-family: 'NType 82', sans-serif;
+    }
+  
+    .font-nmono {
+      font-family: 'NType 82 Mono', monospace;
+    }
+  }
+  
